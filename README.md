@@ -225,7 +225,7 @@ If no custom listeners are provided, a default one is used which will log errors
 
 This repo contains two types of samples. First there is a [stand-alone demo](demo/README.md) that can be used as starter code, for a POM at least. Second there is a collection of samples showing the major use-cases implemented by the core code:
 
-* [autoconfigure-sample](./nats-samples/autoconfigure-sample/pom.xml) a simple command line runner with spring boot that uses the auto-configured nats connection from an application.properties file.
+* [autoconfigure-sample](./nats-spring-samples/autoconfigure-sample) a simple command line runner with spring boot that uses the auto-configured nats connection from an application.properties file.
 
 * [listener-sample](./nats-samples/listener-sample) uses the binder to listen to a single subject and print messages it receives. The configuration in application.yml specifies a single subject `dataIn`.
 
